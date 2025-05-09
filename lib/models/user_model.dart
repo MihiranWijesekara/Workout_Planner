@@ -9,8 +9,8 @@ class User {
   final String address;
   final int age;
   final String description;
-  int totalExerciseCompleted = 0;
-  int totalequipmentsHandOvered = 0;
+  int totlaExercisesCompleted = 0;
+  int totlaEquipmentHandedOver = 0;
 
   final List<Exercise> exerciseList;
   final List<Equipment> equipmentList;
@@ -18,15 +18,15 @@ class User {
   final List<Exercise> favExerciseList;
   final List<Equipment> favEquipmentList;
 
-  User({
+    User({
+    required this.totlaExercisesCompleted,
+    required this.totlaEquipmentHandedOver,
     required this.userId,
     required this.fullName,
+    required this.age,
     required this.gender,
     required this.address,
-    required this.age,
     required this.description,
-    required this.totalExerciseCompleted,
-    required this.totalequipmentsHandOvered,
     required this.exerciseList,
     required this.equipmentList,
     required this.favExerciseList,
