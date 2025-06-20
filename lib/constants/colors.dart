@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 const kSubtitleColor = Color(0xFFA6A1A1);
 const kMainColor = Color(0xFF000000);
 const kMainWhiteColor = Color(0xFFFFFFFF);
+const KCardBgColor = Color.fromARGB(196,226,224,224);
 
 const kGradientTopColor = Color(0xFF0099FF);
 const kGradientBottomColor = Color(0xFF1444DD);
